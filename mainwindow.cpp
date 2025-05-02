@@ -36,7 +36,6 @@ void MainWindow::keyPressEvent(QKeyEvent *event) {
   if(els.length() % 15 == 0) {
     changeScale();
 
-
     QHBoxLayout *hl = new QHBoxLayout;
     hl->setSpacing(0);
     hl->setAlignment(Qt::AlignCenter);

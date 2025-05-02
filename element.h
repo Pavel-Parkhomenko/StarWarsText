@@ -34,7 +34,7 @@ protected:
     painter.setFont(font);
     painter.setPen(QColor(255, 215, 0));
 
-    QPointF center(width()/2.0, height()/2.0);
+    QPointF center(width() / 2.0, height() / 2.0);
 
     QTransform transform;
     transform.translate(center.x(), center.y());
